@@ -22,14 +22,24 @@ public class Main {
         String mesage = "Ovo je poruka";
         
         Car fiat = new Car();
-        fiat.model = "Punto";
-        fiat.buildYear = 2020;
+        fiat.setModel("Fiat Punto");
+        fiat.setBuildYear = 2020;
         fiat.color = "blac";
         fiat.consumption = 6;
-        fiat.maxFuel = 45;
+        fiat.setMaxFuel = 45;
         fiat.maxSpeed = 180;
         
-        System.out.println("Model: " + fiat.model);
+        
+        fiat.showDate();
+        
+        
+        
+        Car ford = Car();
+      //  ford.model = "Ford Fiesta";
+        ford.setModel("Ford Fiesta");
+        ford.buildYear = 2015;
+        
+        ford.showDate();
         
         
         
